@@ -14,5 +14,8 @@ And next the process will continue.
 
 ![User1](https://user-images.githubusercontent.com/48553566/54421880-56ff8000-4733-11e9-94f2-08d563503e4a.png)
 
+### Screen-II
 
+##### User2 recieve the message from User1 and replay a message to User1
 
+![User2](https://user-images.githubusercontent.com/48553566/54421928-71395e00-4733-11e9-90e5-a1d98070d6f3.png)
