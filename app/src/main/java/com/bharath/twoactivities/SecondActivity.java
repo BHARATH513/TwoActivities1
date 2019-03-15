@@ -10,11 +10,14 @@ import android.widget.TextView;
 
 public class SecondActivity extends AppCompatActivity {
     private String LOG_TAG = "SecondActivity";
+    TextView tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+        tv=findViewById(R.id.tv2);
+        tv.setText("User2");
         Log.d(LOG_TAG,"------");
         Log.d(LOG_TAG,"onCreate");
         Intent in=getIntent();

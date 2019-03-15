@@ -41,15 +41,16 @@
         android:id="@+id/reply_lable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
-        android:textStyle="bold"
-        android:textSize="35sp"
-        android:text="Reply_Recieved"
-        android:visibility="invisible"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/msg"
         android:layout_alignEnd="@+id/msg"
-        />
+        android:layout_alignRight="@+id/msg"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:text="Reply_Recieved"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
 
     <TextView
         android:id="@+id/reply_recieved"
